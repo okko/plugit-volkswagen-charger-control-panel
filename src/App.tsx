@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Gauge from './Gauge';
+import Charge from './Charge';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header>
+           ID.4
+        </header>
+      <main>
+        <div><img src="id4.webp" width="80%" /></div>
+        <div>
+          <Gauge value={60}></Gauge>
+          <div className="km-value-text">270 km</div>
+        </div>
+        <div></div>
+      </main>
+      <aside>
+        <div></div>
+        <div><Charge></Charge></div>
+        <div></div>
+      </aside>
     </div>
   );
 }
