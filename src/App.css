@@ -89,6 +89,41 @@ svg.gauge text.value-text {
   top: -100px;
 }
 
+.plug-connection-state {
+  color: rgb(36, 36, 36);
+  font-size: 30px;
+  position: relative;
+  top: -100px;
+}
+
+.charging-state {
+  color: rgb(36, 36, 36);
+  font-size: 30px;
+  position: relative;
+  top: -100px;
+}
+
+.charging-speed {
+  color: rgb(36, 36, 36);
+  font-size: 30px;
+  position: relative;
+  top: -100px;
+}
+
+.charging-remaining {
+  color: rgb(36, 36, 36);
+  font-size: 30px;
+  position: relative;
+  top: -100px;
+}
+
+.charging-timestamp {
+  color: rgb(36, 36, 36);
+  font-size: 10px;
+  position: relative;
+  top: -100px;
+}
+
 .App-link {
   color: #61dafb;
 }

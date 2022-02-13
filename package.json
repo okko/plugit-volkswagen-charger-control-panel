@@ -48,5 +48,8 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.13"
+  },
+  "resolutions": {
+    "iobroker.vw-connect/@iobroker/adapter-core": "file:./lib/@iobroker/adapter-core"
   }
 }

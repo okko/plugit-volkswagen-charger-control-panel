@@ -1106,14 +1106,7 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@iobroker/adapter-core@^2.4.0":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@iobroker/adapter-core/-/adapter-core-2.5.1.tgz#c0d4e4e071a1de535281f63410a559efdbae14ea"
-  integrity sha512-ozUQVN8dI2a7+ALmI4GxvTIZ/qoolotd1W5uSYagMuuKYbQ8ICBWO73dRT4CM/PfuVJ4wmgKllYG+IjgdN+bUw==
-  dependencies:
-    "@types/iobroker" "^3.3.4"
-
-"@iobroker/adapter-core@file:./lib/@iobroker/adapter-core":
+"@iobroker/adapter-core@^2.4.0", "@iobroker/adapter-core@file:./lib/@iobroker/adapter-core":
   version "0.0.0"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
@@ -1757,13 +1750,6 @@
   version "1.17.8"
   resolved "https://registry.yarnpkg.com/@types/http-proxy/-/http-proxy-1.17.8.tgz#968c66903e7e42b483608030ee85800f22d03f55"
   integrity sha512-5kPLG5BKpWYkw/LVOGWpiq3nEVqxiN32rTgI53Sk12/xHFQ2rG3ehI9IO+O3W2QoKeyB92dJkoka8SUm6BX1pA==
-  dependencies:
-    "@types/node" "*"
-
-"@types/iobroker@^3.3.4":
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/@types/iobroker/-/iobroker-3.3.4.tgz#4f56a9f9efdcafe12ea0dd2a0a1284e737612c27"
-  integrity sha512-+/cIRiHujPcjekv0Iec9LQ0QjfNvT4resJxmpkfbCioOzl5li10cEudiz1Z/3sROsUqTelvxmovjAdcQblDxRw==
   dependencies:
     "@types/node" "*"
 
